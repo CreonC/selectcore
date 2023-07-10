@@ -5,7 +5,7 @@ import org.bukkit.Bukkit
 
 @Suppress("UNUSED")
 class Plugin : JavaPlugin(){
-    override fun onEnable() {
+    override fun onEnable() { //TODO: Register commands
         server.pluginManager.registerEvents(PlayerJoin(), this)
     }
 }
