@@ -8,6 +8,6 @@ import org.bukkit.entity.Player
 class OnCommand : Listener {
     @EventHandler
     fun OnCommandSelect(sender: CommandSender?, command: Command, Label:String, args: Array<out String>?){
-        (sender as? Player)?.chat("Why a printline is hard")
+        (sender as? Player)?.chat("Why a println is hard")
     }
 }
