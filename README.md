@@ -1,2 +1,3 @@
-# PaperMC_Plugin
-Sample PaperMC (PaperSpigot) plugin written in Kotlin
+# smp_select_core
+Private use only, no docs available (for now)
+
