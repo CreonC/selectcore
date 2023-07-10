@@ -1,4 +1,4 @@
-package events
+package me.creonc.selectcore.events
 import net.kyori.adventure.text.Component
 import org.bukkit.entity.Player
 import org.bukkit.event.EventHandler
