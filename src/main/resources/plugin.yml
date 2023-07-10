@@ -1,6 +1,6 @@
 main: Plugin
-name: FirstPlugin
+name: SelectCore
 version: 1.0
-api-version: "1.17"
-author: Author
-description: An Example plugin
+api-version: "1.20"
+author: CreonC and the project contributor(s)
+description: none
