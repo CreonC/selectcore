@@ -6,8 +6,6 @@ import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerJoinEvent
 class PlayerJoin : Listener {
     @EventHandler
-    fun playerJoin(event: PlayerJoinEvent) {
-        val player: Player = event.player
-        event.joinMessage(Component.text("Hello ").append(player.displayName()).append(Component.text("!!!")))
+    fun playerJoin(event: PlayerJoinEvent) { //TODO: ask the player to select class
     }
 }
